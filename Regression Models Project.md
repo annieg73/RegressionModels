@@ -16,7 +16,7 @@ This report's scope is to answer/investigate to the following aspects:
 - Is an automatic or manual transmission better for MPG?  
 - Quantify the MPG difference between automatic transmission and manual transmission.
 
-Using the stepwise regression, a technique that automates the procedure of trying different combinations of variables to find a good compromise of model simplicity and $R^2$, the best model has been identified, with an $R^2$ of 0.85 (the model explaines the 85% of the variabilityof MPG). The variables that have an impact on the MPG are: Weight, 1/4 mile time and Transmission. All the coefficients are significant as relative p-values are < the $\alpha$ which is set to 0.05.
+Using the stepwise regression, a technique that automates the procedure of trying different combinations of variables to find a good compromise of model simplicity and $R^2$, the best model has been identified, with an $R^2$ of 0.83 (the model explaines the 83% of the variabilityof MPG). The variables that have an impact on the MPG are: Weight, 1/4 mile time and Transmission. All the coefficients are significant as relative p-values are < the $\alpha$ which is set to 0.05.
 Holding weigth and 1/4 mile time constant, a car with manual transmission generates 2.94 MPG more than one with automatic transmission. So we can conclude that Manual Transmission is better than Automatic Transmission in terms of MPG.
 
 #### Exploratory Data Analyisis
@@ -96,7 +96,7 @@ We set our Hyphotesis:
 $H_{0}: \beta = 0$  *(a particular variable is not a significant predictor)*  
 $H_{A}: \beta \neq 0$  *(the variable is a significant predictor)*  
 We set the $\alpha$ to 0.05.
-According to the model, we see that the variables that have an impact on the MPG are: Weight, 1/4 mile time and Transmission. Since all the coefficients have p-values that are < the $\alpha$, we reject the null hypothesis that each of those variables is not a significant predictor, that means that the variables are significant predictors.  
+According to the model, we see that the variables that have an impact on the MPG are: Weight, 1/4 mile time and Transmission. Since all the coefficients have p-values that are < the $\alpha$, we reject the null hypothesis that each of those variables is not a significant predictor, that means that the variables are significant predictors. The models has an $R^2$ of 0.83 (it explaines 83% of the variability of MPG).
 If we interpret the coefficients, we can say that holding weigth and 1/4 mile time constant, a car with manual transmission generates 2.94 MPG more than one with automatic, therefore we can conclude that the Manual Transmission is better than the Automatic in terms of MPG.
  
 #### Model Diagnostic
