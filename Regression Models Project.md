@@ -1,8 +1,11 @@
 ---
-title: "Motor Trend Regression Models Project"
 output: pdf_document
 ---
-
+---
+title: "Motor Trend Regression Models Project"
+output: pdf_document
+--- 
+  
 ### Introduction
 Motor Trend is a magazine about the automobile industry. The data used in this analyis was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973–74 models).
 The variables object of the study were:  
@@ -99,10 +102,14 @@ If we interpret the coefficients, we can say that holding weigth and 1/4 mile ti
 #### Model Diagnostic
 The 4 plots diagnostic (available in the appendix) can be used to evaluate fit and residuals of the model. *Residuals vs Fitted* Plot: the residuals are scattered randomly around zero --> a linear model is appropriate. The *Normal Q-Q* plot shows that the residuals are normally distributed. The *Scale-Location* Plot shows that the variance is pretty much consistent across the range of x-values. The *Residuals vs Diagnostic* plot shows that no influential points are  overwhelmingly influencing the characteristics of the Regression line. 
 
-\newpage  
 
-## Appendix
 
+\newpage   
+
+## Appendix  
+  
+**md file and figures available in github:** https://github.com/annieg73/RegressionModels 
+  
 ### Boxplot with average, 95%CI, min and max.
 
 ![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png) 
